@@ -92,73 +92,49 @@
 			</script>
 		</csactiondict>
 	</csimport>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
-<!-- ---OfCanvas Start--- -->
-  <input style="display: none" type="checkbox" name="" id="open"/>
-  <label for="open" class="sidebarIcon hidedesktop">
-    <div class="wrapper first"></div>
-    <div class="wrapper second"></div>
-    <div class="wrapper third"></div>
-  </label>
-  <div id="sidebarMenu">
-    <a href="index.html"><img id="mainlogo" class="img-fluid" src="images/template/logo.png"/></a>
-    <ul class="menu">
-	  <li><a class="li" href="home.html">Home</a></li>
-	  <li><a class="li" href="./partners/index.html">Partners</a></li>
-	  <li><a class="li" href="./projects/index.php">Projects</a></li>
-	  <li><a class="li" href="./bookstore/index.html">Publications</a></li>
-	  <li><a class="li" href="./contact_us/index.html">Contact</a></li>
-	  <li><a class="li" href="./resources/index.html">Resources</a></li>
-	  <li><a class="li" href="./terms_of_use/index.html">Terms of Use</a></li>
-	  <li><a class="li" href="./free-downloads/index.html">Free Downloads</a></li>
-    </ul>
-    <a href="./watch_the_film/index.html"><p class="li bottom">Watch the film <br />The Absent House &rarr;</p></a>
-  </div>
-<!---OfCanvas End--->
+	<div style="position: relative;"><img class="mob_logo" id="moblogo" style="display: none;"  width="80"  src="../images/template/logo.png" alt=""></div>
+
+
 
 <!-- ---Navbar Start--- -->
-<nav class="navbar navbar-expand-lg">
-	<div class="container-fluid">
-	  <div id="logo">
-		 <a href="../index.html"><img class="img-fluid weblogo" src="../images/template/logo.png"/></a>
-	  </div>
-	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		  <li class="nav-item"><a class="nav-link active" aria-current="page" href="../home.html">Home</a></li>
-		  <li class="nav-item"><a class="nav-link" href="./">A&M</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../partners/">Partners</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../projects/">Projects</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../bookstore/">Publications</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../contact_us/">Contact</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../resources/">Resources</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../terms_of_use/">Terms of Use</a></li>
-		  <li class="nav-item"><a class="nav-link" href="../free-downloads/">Free Downloads</a></li>
-		</ul>
-	  </div>
-	</div>
-</nav>
-<!-- ---Navbar End--- -->
-
-
-<div class="movieBanner" style="padding-top:30px; padding-left: 70px;">
-	<p><a href="../watch_the_film">Watch the film<br /><em>The Absent House</em> &rarr;</a></p>
-</div>
-
-
+<div id="left-sidebar">
+				<div id="logo">
+					<csobj csref="../web-data/Components/logo.html" h="140" occur="26" t="Component" w="150"><a href="index.html"><img class="img-fluid" src="../images/template/logo.png" alt="" height="140" width="125" border="0" livesrc="../web-data/SmartObjects/template/logo.psd"></a></csobj></div>
+				<!--logo--><!-- #BeginLibraryItem "/Library/1.lbi" -->
+				<div id="menu">
+						<ul>
+							<li><a id="home" href="home.html">Home</a></li>
+							<!--li><a id="aandm" href="./">A&amp;M</a></li-->
+							<li><a id="partners" href="partners">Partners</a></li>
+							<li><a id="projects" href="projects">Projects</a></li>
+							<li><a id="publications" href="bookstore">Publications</a></li>
+							<li><a id="contact" href="contact_us">Contact</a></li>
+							<li><a id="resources" href="resources">Resources</a></li>
+							<li><a id="termsofuse" href="terms_of_use">Terms of Use</a></li>
+				 			<li><a id="freedl" href="free-downloads">Free Downloads</a></li>
+					    </ul>
+				</div>
+				<div class="movieBanner"><p><a href="watch_the_film">Watch the film<br /><em>The Absent House</em> &rarr;</a></p></div><!-- #EndLibraryItem --><!--menu-->
+				<!-- <div class="side" style="padding-top:20px">
+				
+					<img class="img-fluid mid-img" style="margin-bottom:25px" src="../images/template/USAR-VERDE-Advocate-Logo---Color-Options.jpg" width="125%" height="auto" alt=""/>
+					<script class="oil-img" type="text/javascript" src="https://oilprice.com/widgets/co2addedgreen.js"></script><noscript><!--Please Enable Javascript for this <a href="https://oilprice.com/">Oil Price</a> widget to work--></noscript>
+				</div>
+			</div>
+		
 <!-- About Section Begin -->
 	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div id="page-wrap">
-						<div id="inside">
+					
 							<div id="header">
-								<h2><img class="img-fluid top-img" src="../images/template/abruna_and_musgrave_AbrunaMusgraveArchitects.png"/></h2>
 							</div>
 							<div id="main-content">
 								<div id="logo_thumbnails">
@@ -210,10 +186,6 @@
 									<a href="http://www.waterfootprint.org/?page=cal/WaterFootprintCalculator" target="_blank">Water Footprint Calculator</a><br />
 								</p>
 							</div>
-						</div>
-
-
-					</div>
 				</div>
 			</div>
 	</section>
@@ -227,10 +199,8 @@
 		<div class="row">
 			<div class="col-md-12">
 			  <div id="message_box">
-				<div class="about-welcome">
-					<div id="footer">
-						<p style="text-align: center; width: 405px; margin-bottom: 0">
-						  <img class="img-fluid bot-img" src="../images/template/hoja.png"/>
+						<p style="text-align: center; margin-bottom: 0">
+						  <img class="img-fluid bot-img" style="margin-top: 15px; margin-bottom: 15px;" src="../images/template/hoja.png"/>
 						</p>
 						<p>This website is hosted on servers powered by 100% green, renewable solar power.</p>
 						<p>
@@ -245,17 +215,37 @@
 						  <a href="terms_of_use/">Terms of Use</a>
 						</p>
 					  </csobj>
-					</div>
-				 </div>
+			
 			</div>
 		  </div>
 		</div>
 	</div>
   </section>
+  <!-- ---OfCanvas Start--- -->
+  <input style="display: none" type="checkbox" name="" id="open"/>
+  <label for="open" id="hambtn" class="sidebarIcon hidedesktop">
+    <div class="wrapper first"></div>
+    <div class="wrapper second"></div>
+    <div class="wrapper third"></div>
+  </label>
+  <div id="sidebarMenu" style="position:absolute ; z-index: 999 !important;top: 0;
+  left: 0;"> 
+    <ul class="menu">
+	  <li><a class="li" href="home.html">Home</a></li>
+	  <li><a class="li" href="../partners/index.html">Partners</a></li>
+	  <li><a class="li" href="../projects/index.php">Projects</a></li>
+	  <li><a class="li" href="../bookstore/index.html">Publications</a></li>
+	  <li><a class="li" href="../contact_us/index.html">Contact</a></li>
+	  <li><a class="li" href="../resources/index.html">Resources</a></li>
+	  <li><a class="li" href="../terms_of_use/index.html">Terms of Use</a></li>
+	  <li><a class="li" href="../free-downloads/index.html">Free Downloads</a></li>
+    </ul>
+    <a href="../watch_the_film/index.html"><p class="li bottom">Watch the film <br />The Absent House &rarr;</p></a>
+  </div>
+<!---OfCanvas End--->
 <!-- ---Footer Section End--- -->
 
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>
