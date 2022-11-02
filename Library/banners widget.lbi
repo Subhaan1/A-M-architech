@@ -1,0 +1,13 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="message_box">
+
+<!--<img style="margin-bottom:25px" src="../images/template/USAR-VERDE-Advocate-Logo---Color-Options.jpg" width="125%" height="auto" alt=""/>-->
+<!--	
+<csobj csref="../web-data/Components/message_box.html" h="100" occur="91" t="Component" w="150">
+	  <p style="font-size:12px!important;text-align:center" onclick="CSAction(new Array(/*CMP*/'c97aafe10'));return CSClickReturn()" csclick="c97aafe10"><a href="#"><img src="../images/template/Leafs.png" alt=""><br>
+							Carbon Dioxide Concentration Counter: 
+							<script src="http://co2unting.com/co2unter.js" type="text/javascript"></script><span id="current_co2">...</span>
+							<span style="font-size:15px" id="current_co2"> </span> ppm<br>
+							(parts per million)
+		</a></p>
+			    </csobj></div> 
+ -->

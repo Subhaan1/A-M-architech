@@ -1,0 +1,15 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<div id="menu">
+						<ul>
+							<li><a id="home" href="../home.html">Home</a></li>
+							<!--li><a id="aandm" href="./">A&amp;M</a></li-->
+							<li><a id="partners" href="../partners">Partners</a></li>
+							<li><a id="projects" href="../projects">Projects</a></li>
+							<li><a id="publications" href="../bookstore">Publications</a></li>
+							<li><a id="contact" href="../contact_us">Contact</a></li>
+							<li><a id="resources" href="../resources/">Resources</a></li>
+							<li><a id="termsofuse" href="../terms_of_use">Terms of Use</a></li>
+				 			<li><a id="freedl" href="../free-downloads/">Free Downloads</a></li>
+					    </ul>
+				</div>
+				<div class="movieBanner"><p><a href="../watch_the_film/">Watch the film<br /><em>The Absent House</em> &rarr;</a></p></div>

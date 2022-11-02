@@ -1,0 +1,93 @@
+/*   - - - - - - - - - - - - - - - - - - - - - - - - -
+
+     stylesheets/layout.css
+     
+     Copyright 2010 Abru–a & Musgrave
+
+     - - - - - - - - - - - - - - - - - - - - - - - - -   */
+
+
+/* ----------------------------------------------------
+   body
+   ---------------------------------------------------- */
+
+	body {
+	
+		padding: 0px;
+		border: 0px;
+	
+		text-align: center; 
+		margin: 0px auto;
+	
+		background-color: #FFF;
+	}
+
+
+/* ----------------------------------------------------
+   wrappers
+   ---------------------------------------------------- */
+
+	#wrapper {
+	
+		margin: 0px auto;
+		margin-top: 20px;
+		width: 750px;
+		z-index: 1;
+		padding: 0;
+		border: 0;
+		text-align: left;
+	}
+
+/* ----------------------------------------------------
+   columns
+   ---------------------------------------------------- */
+
+	#leftInputsColumn {
+	
+		width: 350px;
+		float: left;
+	}
+
+	#rightInputsColumn {
+	
+		width: 384px;
+		float: right;
+	}
+	
+/* ----------------------------------------------------
+   misc
+   ---------------------------------------------------- */
+
+	#helpDiv {
+	
+		display: none;
+		width: 320px;
+		margin-bottom: 10px;
+	}
+	
+	#debugging {
+	
+		display: none;
+	}
+	
+	#overviewBodyDiv {
+	
+		display: block;
+	}
+	
+	.debuggingOutputDiv {
+	
+		float: left;
+		width: 160px;
+		margin-left: 20px;
+	}
+
+	.noMarginLeft {
+	
+		margin-left: 0;
+	}
+	
+	.clearDiv {
+	
+		clear: both;
+	}

@@ -1,0 +1,43 @@
+/*   - - - - - - - - - - - - - - - - - - - - - - - - -
+
+     stylesheets/inputs.css
+     
+     Copyright 2010 Abru–a & Musgrave
+
+     - - - - - - - - - - - - - - - - - - - - - - - - -   */
+
+
+/* ----------------------------------------------------
+   building inputs
+   ---------------------------------------------------- */
+
+	.inputColumn {
+	
+		float: left;
+	}
+	
+	.inputRightColumn {
+	
+		margin-left: 20px;;
+	}
+	
+	.inputRow {
+	
+		margin-bottom: 3px;
+	}
+	
+	.inputLabel {
+	
+		float: left;
+		text-align: right;
+		width: 150px;
+	}
+
+	.inputData {
+	
+		margin-left: 5px;
+		float: left;
+		width: 150px;
+	}
+
+	

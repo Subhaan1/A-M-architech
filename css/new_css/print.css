@@ -1,0 +1,33 @@
+@charset "utf-8";
+@font-face{src: local("Palatino_"); }
+
+body {
+	background-color: white;
+	font-size: 12pt;
+}
+p, li {
+	font-family: Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: Palatino_, Garamond, Adobe Caslon, serif !important;
+	}
+
+img {
+	border: none;
+}
+#main-content {
+	width: auto;
+}
+	
+#header {
+	display: none;
+}
+#message_box {
+	display: none;
+}	
+#left-sidebar {
+	display: none;
+}
+#footer {
+	display: none
+}

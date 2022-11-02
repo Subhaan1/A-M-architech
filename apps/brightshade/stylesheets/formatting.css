@@ -1,0 +1,225 @@
+/*   - - - - - - - - - - - - - - - - - - - - - - - - -
+
+     stylesheets/formatting.css
+     
+     Copyright 2010 Abru–a & Musgrave
+
+     - - - - - - - - - - - - - - - - - - - - - - - - -   */
+
+
+/* ----------------------------------------------------
+   document
+   ---------------------------------------------------- */
+   
+	body {
+   
+		color: #444;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11pt;
+		line-height: 14pt;
+   	}
+   	
+
+/* ----------------------------------------------------
+   headers
+   ---------------------------------------------------- */
+
+	h1 {
+		
+		font-size: 16pt;
+		line-height: 18pt;
+		font-weight: bold;
+		color: #484;
+		margin-bottom: 3px;
+		border-bottom: 1px solid #b9c4c0;
+	}
+
+	h2 {
+	
+		font-size: 12pt;
+		color: #484;
+		font-weight: bold;
+
+		margin-left: 0;
+		margin-top: 25px;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	
+	.helpHeader {
+	
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+
+/* ----------------------------------------------------
+   form elements
+   ---------------------------------------------------- */
+
+	input, select {
+	
+		font-size: 9px;
+		color: #444;
+		float: none;
+	}
+
+
+/* - - - - - - - - - - - - - - - - - -
+   table elements
+   - - - - - - - - - - - - - - - - - - */
+	
+	#outputTable {
+	
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.tableInput, a.tableInput {
+	
+		font-size: 9pt;
+	}
+	
+	.tableCell {
+	
+		font-size: 8pt;
+		color: #ACA;
+		background-color: #008800;
+		text-align: center;
+	}
+	
+	.energyCell {
+	
+		color: #FFF;
+		background-color: #004400;
+	}
+	
+	.energyTotalCell {
+	
+		background-color: #000;
+		color: #FFF;
+	}
+	
+	.paddedCell {
+
+		padding-left: 2px;	
+		padding-right: 2px;	
+	}
+	
+	.morningAfternoon {
+	
+		text-align: center;
+	}
+	
+	.monthLabel {
+	
+		text-align: center;
+	}
+	
+	.sun_x { text-align: center; font-size: 8pt; color: #FFF; background-color: #8DC63F; }
+	
+	.sun_0 { text-align: center; font-size: 8pt; color: #FFF; background-color: #000; }
+	
+	.sun_1 { text-align: center; font-size: 8pt; color: #FFF; background-color: #1A1A1A; }
+	
+	.sun_2 { text-align: center; font-size: 8pt; color: #FFF; background-color: #333; }
+	
+	.sun_3 { text-align: center; font-size: 8pt; color: #FFF; background-color: #4D4D4D; }
+	
+	.sun_4 { text-align: center; font-size: 8pt; color: #FFF; background-color: #666; }
+	
+	.sun_5 { text-align: center; font-size: 8pt; color: #FFF; background-color: #808080; }
+	
+	.sun_6 { text-align: center; font-size: 8pt; color: #000; background-color: #999; }
+	
+	.sun_7 { text-align: center; font-size: 8pt; color: #000; background-color: #B3B3B3; }
+	
+	.sun_8 { text-align: center; font-size: 8pt; color: #000; background-color: #CCC; }
+	
+	.sun_9 { text-align: center; font-size: 8pt; color: #000; background-color: #E5E5E5; }
+	
+	.sun_10 { text-align: center; font-size: 8pt; color: #000; background-color: #FFF; }
+	
+
+/* ----------------------------------------------------
+   links
+   ---------------------------------------------------- */
+
+	a:link, a:visited {
+	
+		color: #484;
+		text-decoration: underline;
+	}
+	
+	a:hover {
+	
+		color: #040;
+		text-decoration: underline;
+	}
+	
+	a:active {
+	
+		color: #040;
+		text-decoration: none;
+	}
+	
+/* ----------------------------------------------------
+   misc
+   ---------------------------------------------------- */
+
+	.italicGrayNote {
+	
+		font-style: italic;
+		color: #888;
+	}
+	
+	#footer {
+	
+		text-align: center;
+		color: #444;
+		font-size: 9pt;
+		line-height: 12pt;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	
+	#subFooter {
+	
+		text-align: center;
+		color: #999;
+		font-size: 7pt;
+		line-height: 8pt;
+		margin-bottom: 20px;
+	}
+	
+	.versionInfo {
+	
+		font-size: 9pt;
+		color: #888;
+	}
+	
+	.spaceAbove {
+	
+		margin-top: 10px;
+	}
+	
+	.indented {
+	
+		margin-left: 2em;
+	}
+	
+	#helpDiv {
+	
+		padding: 10px;
+		font-size: 10pt;
+		color: #484;
+		border: 1px dotted #AAA;
+		background-color: #EAEAEA;
+	}
+	
+	.hideHelpLinkDiv {
+	
+		font-size: 9pt;
+		margin-top: 9pt;
+		text-align: right;
+	}
