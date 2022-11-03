@@ -76,8 +76,8 @@ ul {
 img {
 	border: none;
 }
-#main-content {
-	padding-left: 230px;
+#main-content { 
+	padding-left: 50px;	
 	padding-top: 20px;
 	min-height: 250px;
 }
@@ -86,7 +86,7 @@ img {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+	margin-top: 40px;
 }
 	
 #left-sidebar {
@@ -168,7 +168,7 @@ a:active {
 }
 #logo_thumbnails {
 	clear: right;
-	padding-top: 5px;
+	padding-top: 0px;
 }
 #logo_thumbnails img {
 	margin: 1px !important;
@@ -233,17 +233,22 @@ html, body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
-	color: #84b400;
+	color: #ffffff !important;
     text-decoration: none;
 }
-.li{
-    color: #84b400;
+a.li{
+	color: #ffffff !important;
     text-decoration: none;
 }
 .bottom{
-    margin-top: 70px;
+	color: #ffffff !important;
+    margin-top: 90px;
     margin-left: 25px;
 	text-align: justify;
+}
+.abr{
+	text-align: center;
+	margin-top: 15px;
 }
 .sidebarIcon{
     width: 45px;
@@ -343,7 +348,16 @@ html, body{
 	#main-content{
 		padding-left: 0!important;
 	}
+	.abr-img{
+		display: none;
+	}
 
+}
+@media screen and (max-width:750px){
+	
+	.cont-img{
+		margin-left: 150px;
+	}
 }
 .weblogo{
 	display: inline-block;
